@@ -12,12 +12,14 @@ function signUp(e){
       // Signed in 
       var user = userCredential.user;
       console.log('useradded')
+      alert('user created')
       window.location.href = "index.html"
     })
     .catch((error) => {
       var errorCode = error.code;
       var errorMessage = error.message;
       console.log(error.message);
+      alert(errorMessage)
       // ..
     });
  
