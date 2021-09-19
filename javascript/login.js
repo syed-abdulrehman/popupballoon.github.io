@@ -36,6 +36,7 @@ function signIn(e){
      
       var errorMessage = error.message;
       console.log(error.message);
+      alert(error.message)
     });  
 }
 
