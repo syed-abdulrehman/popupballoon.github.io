@@ -1,0 +1,70 @@
+body{
+    font-family:sans-serif;
+    padding: 30px;
+    background:#ededed;
+    background-color: white;
+}
+
+.wrapper{
+    max-width: 690px;
+    margin: 0 auto;
+    background-color: lightblue;
+    padding-left:5px;
+    padding-top:30px;
+}
+
+.blue {
+    color:#3f7abe;
+}
+
+h1{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #08a3d9;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #000380;
+}
+
+
+#ballons-main {padding-left:30px;}
+#ballons-main div{
+ 
+    height: 121px;
+    width: 119px;
+    text-align: center;
+    
+    font-size: 40px;
+    font-family: sans-serif, arial;
+    border-radius: 100%;
+    margin-top: 20px;
+    display: inline-block;
+    /* float: left; */
+    margin: 2.5px 5 px 2.5px 0px;
+   
+}
+
+#div1{background-color: green; height: 121px;
+    width: 119px;
+    text-align: center;
+    
+    font-size: 40px;
+    font-family: sans-serif, arial;
+    border-radius: 100%;
+    margin-top: 20px;
+    display: inline-block;
+    /* float: left; */
+    margin: 2.5px 5 px 2.5px 0px;}
+#div2{background-color:red; }
+#div3{background-color:blue;}
+#div4{background-color:orange;}
+
+#no-ballons {
+    display:none;
+    color:#ff3300;
+    font-size:100px;
+    
+}
+#colorselect{color:black; font-size: 40px; background-color: yellow; width:100%;}
+h1{color:red;}
